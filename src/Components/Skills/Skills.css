@@ -1,0 +1,57 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 10%;
+   
+  }
+  
+  .SkillBox{
+    width: max(15%,150px);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px 25px 0px;
+    border: 3px solid #fff;
+    font-size: 64px;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  .SkillBox:hover{
+    transform: scale(1.2);
+    
+    box-shadow: rgba(223, 181, 44, 0.19) 0px 10px 20px,
+          rgba(223, 178, 44, 0.23) 0px 6px 6px,
+          inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: 3px solid orange;
+  }
+  
+  .SkillsHeading{
+    text-align: center;
+    margin: 50px 10px;
+    font-size: 36px;
+    letter-spacing: 0.6px;
+  }
+  
+  @media(max-width: 500px) {
+    .AboutText{
+      font-size: 16px;
+    }
+    .Avatar{
+      width: 200px;
+      margin-bottom: 25px;
+    }
+  
+    .SkillsHeading{
+      font-size: 26px;
+    }
+    .SkillBox{
+      width: 100px;
+      height: 100px;
+      font-size: 50px;
+    }
+  }
+  
+  
