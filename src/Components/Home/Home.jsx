@@ -61,7 +61,7 @@ const Home = () => {
           </p>
         </div>
         <Tilt>
-          <img className="Avatar" src={Avatar} alt="" />
+          <img className="Avatar" src={Avatar} alt="img" />
         </Tilt>
       </div>
     </div>
