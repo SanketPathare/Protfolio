@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 import Avatar from "../../images/Avatar.png";
 import { CiCoffeeCup } from "react-icons/ci";
 import "../Home/Home.css";
-// import { Link } from "react-router-dom";
+
 import boy from "../../LottieFiles/man2.png";
 import { MdTextSnippet } from "react-icons/md";
 import { LuContact2 } from "react-icons/lu";
@@ -23,18 +23,18 @@ const Home = () => {
           </h1>
           <Typed />
           <button className="btn">
-            <a href={Pdf} download={true} target="_blank">
+            <a rel="noreferrer" href={Pdf} download={true} target="_blank">
               Download CV <MdTextSnippet  className="btn_logo"/>
             </a>
           </button>
           <button className="btn">
-            <a href="mailTo:sanketpathare8808@gmail.com" target="_blank">
+            <a rel="noreferrer" href="mailTo:sanketpathare8808@gmail.com" target="_blank">
               Contact < LuContact2 className="btn_logo"/>
             </a>
           </button>
         </div>
         <Tilt>
-        <img className="illustration" src={boy} alt="" />
+        <img className="illustration" src={boy} alt="img" />
 
         </Tilt>
 
