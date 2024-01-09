@@ -41,10 +41,7 @@ const Nav = () => {
 
   return (
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
-      <h1
-       
-        className="Logo"
-      >
+      <h1 className="Logo">
         S<b>P</b>
       </h1>
 
