@@ -51,7 +51,7 @@
 .btn .btn_logo {
   margin-left: 0.3rem;
   font-size: 0.9rem;
-}home
+}
 .btn a:hover {
   color: #000;
 }
@@ -64,6 +64,7 @@
     padding: 25px;
   }
   .HomeText {
+   
     text-align: left;
     display: inline-block;
   }
@@ -72,7 +73,7 @@
     margin-bottom: 50px;
   }
   .btn {
-    font-size: 13px;
+    font-size: 10px;
     margin-bottom: 3rem;
   }
 }
@@ -101,4 +102,8 @@
     margin-top: 1rem;
     font-size: 9px;
   }
+  .btn_logo{
+    font-size: 9px;
+  }
+
 }
