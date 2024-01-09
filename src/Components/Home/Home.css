@@ -100,5 +100,7 @@
   .btn {
     margin-top: 1rem;
     font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
   }
 }
