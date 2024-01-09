@@ -26,8 +26,9 @@
   }
   
   .Avatar{
-    width: 17rem;
-    height: auto;
+    width: 250px;
+    height: 300px;
+   
   }
   
   @media(max-width:900px){
@@ -50,7 +51,7 @@
   
     .Avatar{
       width: 200px;
-      height: auto;
+      height: 250PX;
       margin-bottom: 75px;
     }
   }
