@@ -80,7 +80,7 @@
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .Navbar {
     width: 100%;
     
@@ -88,12 +88,12 @@
 
   .NavbarLinks {
     
-    font-size: 26px;
+    font-size: 22px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     position: fixed;
-    inset: 0 0 0 50%;
+    inset: 0 0 0 0;
     gap: 50px;
     background-color:rgb(51, 46, 42);
     
@@ -140,5 +140,7 @@
     rotate: 225deg;
     transition: 0.5s;
   }
+  
+
   
 }
