@@ -17,7 +17,7 @@
   width: 350px;
   border: 3px solid #fff;
   border-radius: 10px;
-  text-align: center;
+  text-align: justify;
   padding: 15px;
   letter-spacing: 0.5px;
   font-size: 17px;
@@ -26,7 +26,9 @@
   margin: 0px 25px 50px 25px;
   transition: 0.5s;
 }
-
+.project_name {
+  text-align: center;
+}
 .projectBox:hover {
   transform: scale(1.05);
   box-shadow: rgba(239, 151, 44, 0.19) 0px 10px 20px,
@@ -41,7 +43,12 @@
   width: 100%;
   margin: 20px 0px;
 }
-.projectbtn{
+.view {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.projectbtn {
   font-size: 15px;
   display: inline-flex;
   align-items: center;
@@ -50,12 +57,12 @@
   margin: 25px 3% 0;
   border-radius: 5px;
   background-color: orange;
-  color: #E7E7E7;
+  color: #e7e7e7;
   height: 30px;
-  cursor:pointer;
+  cursor: pointer;
   text-decoration: none;
   border-style: none;
 }
-.projectbtn:hover{
+.projectbtn:hover {
   color: #000;
 }

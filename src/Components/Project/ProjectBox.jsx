@@ -29,13 +29,14 @@ const ProjectBox = ({ projectPhoto , projectName }) => {
       <img className="projectPhoto" src={projectPhoto} alt="Project display" />
       <div>
         <br />
-        <h3>{projectName}</h3>
+        <h3 className="project_name">{projectName}</h3>
         <br />
         {desc[projectName + "Desc"]}
         <br />
 
 
         <a
+        className="view"
           rel="noreferrer"
           href={desc[projectName + "Website"]}
           target="_blank"
