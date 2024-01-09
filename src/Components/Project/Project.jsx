@@ -3,7 +3,7 @@ import ProjectBox from '../Project/ProjectBox';
 import NewsletterImage from '../../images/NewsletterImage.png';
 import RogfreeImage from '../../images/RogfreeImage.png';
 import TindogImage from '../../images/TindogImage.png';
-import WigglesImage from '../../images/img1.png';
+import TripFlyImage from '../../images/img1.png';
 
 
 const Project = () => {
@@ -11,7 +11,7 @@ const Project = () => {
     <div>
       <h1 className='projectHeading'>My <b>Projects</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={WigglesImage} projectName="Wiggles" />
+        <ProjectBox projectPhoto={TripFlyImage} projectName="TripFly" />
         <ProjectBox projectPhoto={NewsletterImage} projectName="Newsletter" />
         <ProjectBox projectPhoto={RogfreeImage} projectName="RogFree" />
         <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
