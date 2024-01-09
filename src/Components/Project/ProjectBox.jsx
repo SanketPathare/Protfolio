@@ -1,5 +1,4 @@
-
-import { CgFileDocument } from "react-icons/cg";
+import { GrView } from "react-icons/gr";
 
 
 const ProjectBox = ({ projectPhoto , projectName }) => {
@@ -42,7 +41,7 @@ const ProjectBox = ({ projectPhoto , projectName }) => {
           target="_blank"
         >
           <button className="projectbtn">
-            <CgFileDocument /> View
+          <GrView /> View
           </button>
         </a>
       </div>
