@@ -31,14 +31,16 @@ input {
   padding: 0.5rem;
   font-size: 14px;
   color: hsl(0, 0%, 100%);
-  border: 2px solid #e6ae47;
+  border: 1.5px solid #e6ae47;
   border-radius: 4px;
-  outline: none;
+
   resize: none;
 }
 
 .textarea {
   height: 100px;
+  
+  
 }
 .button {
   margin-top: 1rem;
