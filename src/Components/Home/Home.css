@@ -23,7 +23,6 @@
 .illustration {
   width: 450px;
   height: 450px;
- 
 }
 
 .btn {
@@ -64,7 +63,6 @@
     padding: 25px;
   }
   .HomeText {
-   
     text-align: left;
     display: inline-block;
   }
@@ -76,7 +74,7 @@
     font-size: 10px;
     margin-bottom: 3rem;
   }
-  .btn .btn_logo{
+  .btn .btn_logo {
     font-size: 10px;
   }
 }
@@ -105,8 +103,7 @@
     margin-top: 1rem;
     font-size: 10px;
   }
-  .btn .btn_logo{
+  .btn .btn_logo {
     font-size: 10px;
   }
-
 }
