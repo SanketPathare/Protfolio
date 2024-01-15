@@ -67,3 +67,8 @@
 .projectbtn:hover {
   color: #000;
 }
+@media (max-width: 800px) {
+ .projectbtn{
+  width: 30%;
+ }
+}
