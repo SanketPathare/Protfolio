@@ -71,6 +71,7 @@
     margin-bottom: 50px;
   }
   .btn {
+    margin-top: 1.5rem;
     font-size: 10px;
     margin-bottom: 3rem;
   }
@@ -100,8 +101,9 @@
     margin-bottom: 0px;
   }
   .btn {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: 10px;
+    
   }
   .btn .btn_logo {
     font-size: 10px;
