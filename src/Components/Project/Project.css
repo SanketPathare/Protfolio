@@ -10,11 +10,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 25px 5%;
+  margin: 20px 5%;
 }
 
 .projectBox {
-  width: 350px;
+  width: 300px;
   border: 3px solid #fff;
   border-radius: 10px;
   text-align: justify;
@@ -41,20 +41,21 @@
 .projectPhoto {
   display: block;
   width: 100%;
-  margin: 20px 0px;
+  margin: 5px 0px;
 }
 .view {
+  margin-bottom: 5px;
   display: flex;
   justify-content: center;
   text-decoration: none;
 }
 .projectbtn {
+
   font-size: 15px;
   display: inline-flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 25%;
-  margin: 25px 3% 0;
+  width: 27%;
   border-radius: 5px;
   background-color: orange;
   color: #e7e7e7;
