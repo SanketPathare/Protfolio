@@ -3,12 +3,13 @@ import { GrView } from "react-icons/gr";
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
     TripFlyWebsite: "https://tripfly-in.vercel.app/",
+    
+    ElectroMartWebsite: "https://e-commerce-gilt-pi.vercel.app/",
 
     TindogWebsite: "",
 
     RogFreeWebsite: "",
 
-    NewsletterWebsite: "",
   };
 
   return (
