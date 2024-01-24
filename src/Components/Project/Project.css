@@ -42,9 +42,7 @@
   display: block;
   width: 100%;
   margin: 10px 0px;
-  
 }
-
 
 .view {
   margin-bottom: 5px;
@@ -53,7 +51,6 @@
   text-decoration: none;
 }
 .projectbtn {
-
   font-size: 15px;
   display: inline-flex;
   align-items: center;
@@ -71,7 +68,7 @@
   color: #000;
 }
 @media (max-width: 800px) {
- .projectbtn{
-  width: 30%;
- }
+  .projectbtn {
+    width: 30%;
+  }
 }
