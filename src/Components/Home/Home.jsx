@@ -7,7 +7,7 @@ import Avatar from "../../images/Avatar.png";
 import { CiCoffeeCup } from "react-icons/ci";
 import "../Home/Home.css";
 
-import boy from "../../LottieFiles/man2.png";
+import boy from "../../images/Avatar1.png";
 import { MdTextSnippet } from "react-icons/md";
 import { LuContact2 } from "react-icons/lu";
 
@@ -33,10 +33,10 @@ const Home = () => {
             </a>
           </button>
         </div>
-        <Tilt>
+    
         <img className="illustration" src={boy} alt="img" />
 
-        </Tilt>
+       
 
         {/* <Lottie className="illustration" animationData={Boy} loop={true} /> */}
       </div>
