@@ -27,7 +27,8 @@ label {
 }
 
 input {
-  background-color: rgb(54, 45, 45);
+  background-color: #12071f;
+  ;
   padding: 0.5rem;
   font-size: 14px;
   color: hsl(0, 0%, 100%);
