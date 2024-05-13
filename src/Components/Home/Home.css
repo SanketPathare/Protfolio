@@ -6,6 +6,7 @@
   margin-bottom: -50px;
   align-items: center;
 }
+
 .HomeText h1 {
   font-weight: 600;
   font-size: 38px;
@@ -30,30 +31,18 @@
   text-align: center;
   margin-right: 1.5rem;
   background: rgb(225, 151, 13);
-  border: 1px solid #000;
+  border: 1px solid orange;
   font-size: 0.8rem;
   padding: 1em 1.5em;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #000;
   border-radius: 10px;
   cursor: pointer;
-  align-items: center;
   box-shadow: 2px 2px 2px #ffff;
-  overflow: hidden;
-  position: relative;
   font-weight: 400;
   line-height: 20px;
-  overflow: visible;
- 
   text-transform: none;
-  touch-action: manipulation;
   user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-  
 }
 
 .btn a {
@@ -65,11 +54,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .btn .btn_logo {
   margin-left: 0.4rem;
   font-size: 1rem;
-  
 }
+
 .btn a:hover {
   color: #000;
 }
@@ -81,28 +71,33 @@
     margin-top: 150px;
     padding: 25px;
   }
+
   .HomeText {
     text-align: left;
     display: inline-block;
   }
+
   .illustration {
     margin: auto;
     margin-bottom: 50px;
   }
+
   .btn {
     margin-top: 1.5rem;
     font-size: 10px;
     margin-bottom: 3rem;
   }
-  .btn a{
+
+  .btn a {
     font-size: 13px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   .btn .btn_logo {
-    font-size:15px;
+    font-size: 15px;
   }
 }
 
@@ -110,17 +105,21 @@
   .HomePage {
     min-height: 70vh;
   }
+
   .NavbarLinks {
     inset: 0 0 0 30%;
   }
+
   .HomeText h1 {
     font-weight: 500;
     font-size: 28px;
   }
+
   .TypeEffect {
     font-weight: 500;
     font-size: 24px;
   }
+
   .illustration {
     width: 300px;
     height: 300px;
@@ -130,15 +129,16 @@
   .btn {
     margin-top: 1.5rem;
     font-size: 10px;
-    
   }
-  .btn a{
+
+  .btn a {
     font-size: 12px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .btn .btn_logo {
     font-size: 15px;
   }
