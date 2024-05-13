@@ -38,3 +38,20 @@ b {
   background: orange;
   border-radius: 100px;
 }
+.bg{
+  position:fixed;
+  z-index: -1;
+  bottom: 0px;  
+}
+
+.bgtwo{
+  position:fixed;
+  z-index: -1;
+  top: 220px;
+}
+
+.bgtemp{
+  position:fixed;
+  z-index: -1;
+  top: -30px;
+}

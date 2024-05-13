@@ -11,7 +11,6 @@ import boy from "../../images/Avatar1.png";
 import { MdTextSnippet } from "react-icons/md";
 import { LuContact2 } from "react-icons/lu";
 
-
 const Home = () => {
   return (
     <div>
@@ -24,19 +23,22 @@ const Home = () => {
           <Typed />
           <button className="btn">
             <a rel="noreferrer" href={Pdf} download={true} target="_blank">
-              Download CV <MdTextSnippet  className="btn_logo"/>
+              Download CV <MdTextSnippet className="btn_logo" />
             </a>
           </button>
           <button className="btn">
-            <a rel="noreferrer" href="mailTo:sanketpathare8808@gmail.com" target="_blank">
-              Contact < LuContact2 className="btn_logo"/>
+            <a
+              rel="noreferrer"
+              href="mailTo:sanketpathare8808@gmail.com"
+              target="_blank"
+            >
+              Contact <LuContact2 className="btn_logo" />
             </a>
           </button>
         </div>
-    
-        <img className="illustration" src={boy} alt="img" />
-
-       
+        <Tilt>
+          <img className="illustration" src={boy} alt="img" />
+        </Tilt>
 
         {/* <Lottie className="illustration" animationData={Boy} loop={true} /> */}
       </div>

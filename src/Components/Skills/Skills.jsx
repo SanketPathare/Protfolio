@@ -2,7 +2,6 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
-  
   FaFigma,
   FaBootstrap,
   FaHtml5,
@@ -29,7 +28,6 @@ const Skills = ({ skill }) => {
     MongoDb: <SiMongodb />,
     Git: <FaGitAlt />,
     Github: <FaGithub />,
-    
     Figma: <FaFigma />,
     Bootstrap: <FaBootstrap />,
     Vercel: <SiVercel />,

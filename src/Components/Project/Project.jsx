@@ -1,5 +1,5 @@
 import "./Project.css"
-import ProjectBox from '../Project/ProjectBox';
+import ProjectBox from './ProjectBox';
 import EcommerceImage from '../../images/e-commerce.png';
 import RogfreeImage from '../../images/RogfreeImage.png';
 import TindogImage from '../../images/TindogImage.png';

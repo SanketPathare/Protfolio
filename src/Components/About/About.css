@@ -13,8 +13,10 @@
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1.2px;
+  text-align: justify;
 }
 .AboutTextHeading {
+
   font-size: 35px;
   font-weight: 600;
   padding-bottom: 40px;
@@ -43,6 +45,7 @@
     line-height: 24px;
     letter-spacing: 0.6px;
     margin-bottom: 80px;
+    text-align: justify;
   }
   .AboutTextHeading {
     font-size: 26px;

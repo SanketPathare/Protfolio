@@ -14,7 +14,7 @@ const Typed = () => {
           ],
           autoStart: true,
           loop: true,
-          delay: 70,
+          delay: 50,
           deleteSpeed: 20,
         }}
       />

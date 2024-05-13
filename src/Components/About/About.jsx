@@ -42,7 +42,7 @@ const About = () => {
         </div>
       </div>
 
-      <h1 className="SkillsHeading">Web-Skills</h1>
+      <h1 className="SkillsHeading">Web-<b>Skills</b></h1>
       <div className="skills">
         <Skills skill="HTML" />
         <Skills skill="CSS" />
