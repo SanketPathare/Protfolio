@@ -6,9 +6,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .contact_heading h2 b {
   margin: 0.4rem;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -27,8 +29,8 @@ label {
 }
 
 input {
-  background-color: #12071f;
-  ;
+
+  background: transparent;
   padding: 0.5rem;
   font-size: 14px;
   color: hsl(0, 0%, 100%);
@@ -41,12 +43,14 @@ input {
 .textarea {
   height: 100px;
 }
+
 .button {
   margin-top: 1rem;
   width: 20%;
   margin-bottom: 20%;
   justify-items: center;
 }
+
 .button:hover {
   background: #fff;
   color: #000;
@@ -71,6 +75,7 @@ input {
   .contact {
     width: 80%;
   }
+
   .button {
     font-size: 13px;
   }
