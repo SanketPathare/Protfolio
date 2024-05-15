@@ -17,8 +17,8 @@ const About = () => {
             Hi, my name is <b>Sanket Pathare</b> and I am from pune, India. Im a{" "}
             <b>Full stack web developer</b> and a third year college student
             pursuing <b>BTech in CSE</b>. <br />
-            <br />I have done an internship as a <b>software developer</b> at
-            GoalFi which is a finTech startup. I love to create original
+            <br />I have done an internship as a <b>Web developer</b> at
+            Divinify. I love to create original
             projects with beautiful designs, you can check out some of my work
             in the projects section.
             <br />
