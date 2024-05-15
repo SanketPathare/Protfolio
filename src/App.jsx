@@ -16,7 +16,6 @@ function App() {
         <Lottie className="bg" animationData={nightsky} loop={true} />
         <Lottie className="bgtwo" animationData={nightsky} loop={true} />
         <Lottie className="bgtemp" animationData={nightsky} loop={true} />
-
         <Nav />
         <MoveToTop />
         <Routes>
@@ -27,7 +26,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-      
     </>
   );
 }
