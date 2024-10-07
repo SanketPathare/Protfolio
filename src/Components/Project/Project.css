@@ -1,4 +1,5 @@
-.projectHeading {
+
+.projectHeading{
   text-align: center;
   padding: 75px 0;
   letter-spacing: 0.4px;
@@ -6,69 +7,57 @@
   margin-top: 100px;
 }
 
-.project {
+.project{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 5%;
+  margin: 25px 5%;
 }
 
-.projectBox {
+.projectBox{
   width: 350px;
-  border: 3px solid #fff;
-  border-radius: 10px;
-  text-align: justify;
+  border: 3px solid orange;
+  border-radius: 5px;
+  text-align: center;
   padding: 15px;
   letter-spacing: 0.5px;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 22px;
-
   margin: 0px 25px 50px 25px;
   transition: 0.5s;
 }
-.project_name {
-  text-align: center;
-}
-.projectBox:hover {
+.projectBox:hover{
   transform: scale(1.05);
-  box-shadow: rgba(239, 151, 44, 0.19) 0px 10px 20px,
-    rgba(223, 131, 44, 0.23) 0px 6px 6px,
-    inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
-    inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  border: 3px solid orange;
+  box-shadow: 0 2px 10px 0 orange;
 }
 
-.projectPhoto {
+.projectPhoto{
   display: block;
   width: 100%;
-  margin: 10px 0px;
+  margin: 20px 0px ;
 }
 
-.view {
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
-.projectbtn {
-  font-size: 15px;
+
+
+.projectbtn{
+  font-size: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 27%;
+  width: 40%;
+  margin: 25px 3% 0;
   border-radius: 5px;
-  background-color: orange;
-  color: #e7e7e7;
-  height: 30px;
-  cursor: pointer;
+  background-color: #f1a90e;
+  color: #E7E7E7;
+  height: 35px;
+  cursor:pointer;
   text-decoration: none;
   border-style: none;
+  transition-duration: 1s;
+  border: 2px solid #000;
 }
-.projectbtn:hover {
-  color: #000;
-}
-@media (max-width: 800px) {
-  .projectbtn {
-    width: 30%;
-  }
+
+.projectbtn:hover{
+
+  color: black;
 }
