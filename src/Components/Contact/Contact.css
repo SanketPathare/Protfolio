@@ -1,17 +1,19 @@
 .contact_heading h2 {
-  margin-top: 7rem;
-  font-size: 2.3rem;
+  margin-top: 10rem;
+  font-size: 3rem;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .contact_heading h2 b {
-  margin: 0.4rem;
+  margin: 1rem;
 }
 
 .contact {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -21,9 +23,9 @@
 }
 
 label {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   color: #fff;
 }
@@ -32,7 +34,7 @@ input {
 
   background: transparent;
   padding: 0.5rem;
-  font-size: 14px;
+  font-size: 18px;
   color: hsl(0, 0%, 100%);
   border: 1.5px solid #e6ae47;
   border-radius: 4px;
@@ -41,7 +43,12 @@ input {
 }
 
 .textarea {
-  height: 100px;
+  height: 200px;
+  resize: none;
+  background: transparent;
+  color: hsl(0, 0%, 100%);
+  border: 1.5px solid #e6ae47;
+  font-size: 18px;
 }
 
 .button {
@@ -56,6 +63,8 @@ input {
   color: #000;
   box-shadow: 3px 2px 2px #e6ae47;
 }
+
+
 
 @keyframes scaleUp {
   0% {

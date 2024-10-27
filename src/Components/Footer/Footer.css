@@ -4,12 +4,10 @@ footer {
   margin: 10px auto;
   margin-top: 80px;
   letter-spacing: 0.5px;
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-
   position: relative;
   bottom: 0;
   text-align: center;
