@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <h4> Build by : Sanket Pathare </h4>
-      <h4>2024 © All Rights Reserved. </h4>
+      <h4>{new Date().getFullYear()} © All Rights Reserved. </h4>
       <div className="footerLinks">
         <a
           href="https://github.com/sanket8808"
